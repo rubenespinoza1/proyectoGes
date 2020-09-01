@@ -512,6 +512,7 @@ public class IngresoCasoPaciente extends javax.swing.JFrame implements KeyListen
 
     private void limpPatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_limpPatActionPerformed
         this.PatologiasJTextField.setText("");
+        advertirCambios();
         this.patologias.clear();
     }//GEN-LAST:event_limpPatActionPerformed
 
